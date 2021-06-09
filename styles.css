@@ -3,6 +3,7 @@
     --background: #212529;
     --text: #fff;
     --link: #3498db;
+    --gray: #bbb;
   }
   
   body {
@@ -12,5 +13,9 @@
   
   #spPageChromeAppDiv a {
     color: var(--link) !important;
+  }
+  
+  #spPageChromeAppDiv span.ms-Button-label {
+    color: var(--gray);
   }
 }
