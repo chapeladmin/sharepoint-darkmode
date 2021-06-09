@@ -6,9 +6,11 @@
     --gray: #bbb;
   }
   
-  body, #spPageChromeAppDiv .mainContent {
-    background-color: var(--background);
-    color: var(--text);
+  body,
+  #spPageChromeAppDiv *
+  {
+    background-color: var(--background) !important;
+    color: var(--text) !important;
   }
   
   #spPageChromeAppDiv a {
@@ -16,6 +18,6 @@
   }
   
   #spPageChromeAppDiv span.ms-Button-label {
-    color: var(--gray);
+    color: var(--gray) !important;
   }
 }
