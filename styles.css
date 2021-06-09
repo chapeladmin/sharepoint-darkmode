@@ -4,4 +4,13 @@
     --text: #fff;
     --link: #3498db;
   }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text) !important;
+  }
+  
+  #spPageChromeAppDiv a {
+    color: var(--link) !important;
+  }
 }
