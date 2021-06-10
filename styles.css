@@ -15,7 +15,8 @@
     color: var(--text) !important;
   }
   
-  #spPageChromeAppDiv .fontColorGreen
+  #spPageChromeAppDiv .fontColorGreen,
+  #spPageChromeAppDiv .fontColorGreen *
   {
     color: var(--green) !important;
   }
