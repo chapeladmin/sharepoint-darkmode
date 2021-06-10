@@ -4,6 +4,7 @@
     --text: #fff;
     --blue: #3498db;
     --gray: #bbb;
+    --darkgray: #444;
     --green: #40903b;
   }
   
@@ -19,11 +20,27 @@
     color: var(--green) !important;
   }
   
+  #spPageChromeAppDiv .commandBarWrapper,
+  #spSiteHeader
+  {
+    border-color: var(--darkgray) !important;
+  }
+  
+  #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn]
+  {
+    color: var(--darkgray) !important;
+  }
+  
   #spPageChromeAppDiv a,
-  #spPageChromeAppDiv i[data-icon-name=glimmer],
-  #spPageChromeAppDiv i[data-icon-name=FavoriteStarFill]
+  #spPageChromeAppDiv button i
   {
     color: var(--blue) !important;
+  }
+  
+  #spPageChromeAppDiv button:focus span.ms-Button-label,
+  #spPageChromeAppDiv button:hover span.ms-Button-label
+  {
+    text-decoration: underline !important;
   }
   
   #spPageChromeAppDiv span.ms-Button-label {
