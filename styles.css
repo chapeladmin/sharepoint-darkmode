@@ -9,50 +9,49 @@
     --green: #40903b;
   }
   
-  body,
-  #spPageChromeAppDiv *
+  #spPageChromeAppDiv *[class!=UpdateEditTop]
   {
-    background-color: var(--background) !important;
-    color: var(--text) !important;
+    background-color: var(--background);
+    color: var(--text);
   }
   
   #spPageChromeAppDiv .fontColorGreen,
   #spPageChromeAppDiv .fontColorGreen *
   {
-    color: var(--green) !important;
+    color: var(--green);
   }
   
   #spPageChromeAppDiv .commandBarWrapper,
   #spSiteHeader
   {
-    border-color: var(--darkgray) !important;
+    border-color: var(--darkgray);
   }
   
   #spPageChromeAppDiv div[role=row]
   {
-    border-bottom: 1px solid var(--darkgray) !important;
+    border-bottom: 1px solid var(--darkgray);
   }
   
   #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn],
   #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn] *
   {
-    color: var(--midgray) !important;
+    color: var(--midgray);
   }
   
   #spPageChromeAppDiv a,
   #spPageChromeAppDiv i[data-icon-name=glimmer],
   #spPageChromeAppDiv button i
   {
-    color: var(--blue) !important;
+    color: var(--blue);
   }
   
   #spPageChromeAppDiv button:focus span.ms-Button-label,
   #spPageChromeAppDiv button:hover span.ms-Button-label
   {
-    text-decoration: underline !important;
+    text-decoration: underline;
   }
   
   #spPageChromeAppDiv span.ms-Button-label {
-    color: var(--gray) !important;
+    color: var(--gray);
   }
 }
