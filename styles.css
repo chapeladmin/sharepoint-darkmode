@@ -26,12 +26,19 @@
     border-color: var(--darkgray) !important;
   }
   
-  #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn]
+  #spPageChromeAppDiv div[role=row]
+  {
+    border-bottom: 1px solid var(--darkgray) !important;
+  }
+  
+  #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn],
+  #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn] *
   {
     color: var(--darkgray) !important;
   }
   
   #spPageChromeAppDiv a,
+  #spPageChromeAppDiv i[data-icon-name=glimmer],
   #spPageChromeAppDiv button i
   {
     color: var(--blue) !important;
