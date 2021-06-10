@@ -9,7 +9,7 @@
     --green: #40903b;
   }
   
-  #spPageChromeAppDiv *[class!=UpdateEditTop]
+  #spPageChromeAppDiv *[class!=UpdateEditTop] *
   {
     background-color: var(--background);
     color: var(--text);
