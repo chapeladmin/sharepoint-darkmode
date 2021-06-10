@@ -5,6 +5,7 @@
     --blue: #3498db;
     --gray: #bbb;
     --darkgray: #444;
+    --midgray: #777;
     --green: #40903b;
   }
   
@@ -35,7 +36,7 @@
   #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn],
   #spPageChromeAppDiv *[data-automation-key^=dateModifiedColumn] *
   {
-    color: var(--darkgray) !important;
+    color: var(--midgray) !important;
   }
   
   #spPageChromeAppDiv a,
